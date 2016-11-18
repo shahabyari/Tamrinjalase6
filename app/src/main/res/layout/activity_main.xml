@@ -170,9 +170,14 @@
         android:textColorHint="@android:color/holo_red_dark"
         android:paddingLeft="20sp"
         />
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:weightSum="2"
+    >
     <Button
-        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_width="0sp"
         android:layout_height="70sp"
         android:layout_marginTop="20sp"
         android:layout_marginLeft="60sp"
@@ -187,6 +192,26 @@
         android:onClick="launchRingDialog"
 
         />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="0sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:background="@drawable/loginbutton"
+        android:text="Login"
+        android:drawableLeft="@drawable/login"
+        android:paddingLeft="20sp"
+        android:paddingRight="60sp"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:onClick="launchRingDialog"
+
+        />
+
+</LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -124,23 +124,22 @@ tools:context="com.shahabyari.arpaneteniac.tamrinjalase6.MainActivity">
             android:layout_height="30sp"
             android:layout_marginLeft="01sp"
             android:layout_marginTop="50sp"
-
+            android:id="@+id/username"
             android:text="Your Name"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="22sp"
             android:textStyle="bold" />
         <TextView
-            android:layout_width="143sp"
+            android:layout_width="229dp"
             android:layout_height="30sp"
             android:layout_marginLeft="21sp"
-
-
+            android:id="@+id/txtEmail"
             android:text="DescDescDescDesc"
-            android:textAlignment="center"
+
             android:textColor="@android:color/white"
             android:textSize="18sp"
-            />
+            android:layout_weight="0.29" />
     </LinearLayout>
 
 

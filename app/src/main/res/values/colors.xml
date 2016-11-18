@@ -6,4 +6,6 @@
     <color name="colortoolbar">#574334</color>
     <color name="colortrans">#AFFF</color>
     <color name="textcolortrans">#DFFF</color>
+    <color name="Red">#ddff0000</color>
+    <color name="Green">#dd0ced27</color>
 </resources>
